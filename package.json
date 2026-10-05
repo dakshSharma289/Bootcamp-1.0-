@@ -1,0 +1,31 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "this is my first and simplest http server",
+  "keywords": [
+    "first",
+    "http",
+    "server",
+    "simple",
+    "week-7",
+    "7"
+  ],
+  "homepage": "https://github.com/dakshSharma289/Bootcamp-1.0-#readme",
+  "bugs": {
+    "url": "https://github.com/dakshSharma289/Bootcamp-1.0-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dakshSharma289/Bootcamp-1.0-.git"
+  },
+  "license": "ISC",
+  "author": "Daksh Sharma",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
