@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      week 1, assignment 1, problem 4
+    </title>
+<style>
+*{
+  min-height: 0;
+  font-weight: bolder;
+}
+#super-container{
+  margin: auto;
+  width: 1200px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+#left-box{
+  margin-right: 5px;
+  background-color: red;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+}
+#left-box-heading{
+  margin: 0 auto;
+  width: fit-content;
+}
+div #left-box-heading h1{
+  width: fit-content;
+}
+#left-box-body{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+#right-box{
+  margin-left: 5px;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+div #left-box-body p, div #right-box p{
+}
+</style>
+  </head>
+  <body>
+    <div id="super-container">
+      <div id="left-box">
+        <h1 id="left-box-heading">Left</h1>
+        <div id="left-box-body"> 
+          <p> text </p> 
+          <p> text </p> 
+          <p> text </p> 
+          <p> text </p> 
+          <p> text </p> 
+          <p> text </p> 
+          <p> text </p> 
+          <p> text </p> 
+          <p> text </p> 
+          <p> text </p> 
+          <p> text </p> 
+          <p> text </p> 
+          <p> text </p> 
+          <p> text </p> 
+          <p> text </p> 
+          <p> text </p>
+        </div>
+      </div>
+      <div id="right-box"> 
+        <p> col 1 </p>  
+        <p> col 2 </p>
+        <p> col 3 </p> 
+        <p> col 1 </p>  
+        <p> col 2 </p>
+        <p> col 3 </p> 
+        <p> col 1 </p>  
+        <p> col 2 </p>
+        <p> col 3 </p> 
+        <p> col 1 </p>  
+        <p> col 2 </p>
+        <p> col 3 </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment 1.1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<style>
+*{
+  font-family: "Inter";
+}
+body{
+  display: flex;
+  justify-content: center;
+}
+#center-console{
+  width: 360px;
+  height: 910px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#login-form{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#greeting{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#login-form-top-section{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 154px;
+  align-items: space-between;
+}
+.login-buttons{
+  width: 100%;
+}
+#google-login, #apple-login, #sso-login{
+  width: 100%;
+  height: 45px;
+  background-color: white;
+  border-radius: 12px;
+  border-width: 1px;
+  border-color: #e5e5e8;
+  box-shadow: none;
+  border-style: solid;
+  padding-left: 0;
+  display: flex;
+}
+#google-login img, #apple-login img{
+  margin-right: 0;
+  height: 100%;
+  object-fit: cover;
+  width: 45px;
+}
+#google-login p, #apple-login p, #sso-login p{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+hr{
+  width: 100%
+}
+#login-form-bottom-section{
+  width: 100%;
+}
+#email-field input, #password-field input{
+  width: 100%;
+  height: 45px;
+  border: 1px solid #e5e5e8;
+  border-radius: 12px;
+}
+#sign-in-button{
+  width: 100%;
+  height: 45px;
+  border-radius: 12px;
+  background-color: #00001187;
+  border: 0;
+  color: white;
+}
+#password-field{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#forgot-password-redirect{
+  color: rgb(166, 166, 174);
+  font-size: 12px;
+  line-height: 30px;
+}
+</style>
+  </head>
+  <body>
+    <div id='center-console'>
+      <header>
+        <h3>IIEIevenLabs</h3>
+      </header>
+      <div id='login-form'>
+        <div id='greeting'>
+          <h3> Wellcome back </h3>
+        </div>
+        <div id='login-form-top-section'>
+          <div class='login-buttons'>
+            <button id='google-login'><img src='google_logo.png'/> <p>Sign in with google</p></button>
+          </div>
+          <div class='login-buttons'>
+            <button id='apple-login'><img src='apple_logo.png' /> <p>Sign in with apple</p></button>
+          </div>
+          <div class='login-buttons'>
+            <button id='sso-login'><p>Sign in with SSO</p></button>
+          </div>
+        </div>
+        <hr/>
+        <div id='login-form-bottom-section'>
+          <div id='email-field'>
+            <p> Email</p>
+            <input type='text'/>
+          </div>
+          <div id='password-field'>
+            <p> Password</p>
+            <div id='forgot-password-redirect'>
+              <a>Forgot your password?</a>
+            </div>
+            <input type='password'/>
+          </div>
+        <div id='sign-in-button-container'>
+          <button id='sign-in-button'>Sign in </button>
+        </div>
+        <div id='sign-up-redirect'>
+          <p>Don't have an account? <a>Sign up</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
